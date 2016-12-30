@@ -1,0 +1,7 @@
+[db]
+database=mydb
+host=localhost
+password=somepassword
+port=5432
+user=username
+connection_string=postgresql+psycopg2://%(user)s:%(password)s@%(host)s:%(port)s/%(database)s
